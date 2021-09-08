@@ -37,7 +37,7 @@ EN = ['41', '42', '43', '44', '45', '46', '47', '48', '49',
           '30', '31', '32', '33', '34', '35', '36', '37', '38', '39']
 
 def loo():
-    loogin = ('Мастер К') #input('Введите логин: ')
+    loogin = ('input('Введите логин: ')
     l=[]
     t=0
     for i in loogin:
@@ -52,7 +52,7 @@ def loo():
     return ''.join(l)
 
 def paa():
-    paassword = ('warest13') #input('Введите пароль: ')
+    paassword = ('input('Введите пароль: ')
     p = []
     t = 0
     for i in paassword:
